@@ -1,0 +1,465 @@
+.img-header {
+    align-items: center;
+    justify-content: center;
+    /*background-image: url('./images/headerimage_files/headerimage1.jpg');*/
+    height:40vh;
+    width: 70%;
+    background-repeat: repeat;
+    background-size: contain;
+    margin: 50px auto;
+    box-shadow: 3px 3px 4px black;
+}
+
+.img-header button{
+    margin: 20px auto;
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    background-color: rgb(175, 1, 175);
+    box-shadow: 3px 3px 4px rgb(26, 26, 26);
+    cursor: pointer;
+}
+
+.img-header button a{
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+* {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.sticky {
+    border-radius: 5px;
+    margin: 20px 10%;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.77);
+    background-color: white;
+}
+
+.Puppieforadoption {
+    width: 90vw;
+    margin: 0 auto;
+    max-width: 1170px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    grid-column-gap: 1.5rem;
+    grid-row-gap: 2rem;
+}
+
+.Puppieforadoption .satisfied-h2{
+    border: none;
+    border-radius: 5px;
+    margin: 40px;
+    padding: 10px 0;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.499);
+    background-color: rgba(216, 112, 147, 0.284);
+}
+
+.Puppieforadoption .satisfied-h2 img{
+    width: 250px;
+    height: 250px;
+}
+
+h3 {
+    margin: 40px 100px;
+}
+
+.button {
+    margin: 20px auto;
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    background-color: rgb(175, 1, 175);
+}
+.button a{
+    color: white;
+    font-size: 0.8rem;
+    text-decoration: none;
+}
+.button:hover {
+    color: rgba(255, 18, 208, 0.621);
+    cursor: pointer;
+    font-size: 0.5rem;
+    box-shadow: 3px 3px 4px rgb(26, 26, 26);
+}
+
+.home-deiial {
+    display: flex;
+}
+
+.blog-page {
+    display: flex;
+    column-gap: 20px;
+}
+
+.back-to-school {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 3px 3px 5px black;
+    margin: 40px 15px;
+}
+
+.img-blog-img {
+    width: 60%;
+}
+
+.convinient-location ul {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+#sold-puppy {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    overflow: auto;
+}
+
+#sold-puppy img {
+    width: 80%;
+    margin-top: 20px;
+}
+
+#sold-puppy div{
+    background-color: rgb(200, 227, 250);
+    margin: 30px 70px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.867);
+}
+
+#satisfied-h2 {
+    font-size: 18px;
+}
+
+#Statisfied1 {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    overflow: auto;
+}
+
+#Statisfied1 div {
+    padding: 20px 40px;
+    background-color: rgb(200, 227, 250);
+    margin: 20px 70px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.867);
+}
+
+#Statisfied1 img {
+    width: 100%;
+}
+
+#Statisfied {
+    display: flex-box;
+    flex-direction: row; 
+    overflow: auto;
+    width: 100%;
+}
+
+#Statisfied img {
+    width: 93%;
+    margin: 30px 0;
+}
+
+#Statisfied div {
+    background-color: rgb(200, 227, 250);
+    margin: 20px 70px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.867);
+}
+
+#Statisfied div h2 {
+    font-size: 14px;
+}
+
+#Statisfied div p {
+    font-size: 13px;
+}
+
+.rate img {
+    width: 50%;
+    margin-top: 90px;
+}
+
+.Reasons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    flex-direction: column;
+    margin: 20px;
+    border-radius: 21px;
+    box-shadow: 7px 7px 3px purple;
+}
+
+.Reasons1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 100px;
+    text-wrap: wrap;
+}
+
+.bxl-instagram{
+    color: rgb(226, 36, 243);
+    font-size: 34px;
+}
+
+.bxl-whatsapp{
+    color: green;
+    font-size: 34px;
+}
+
+.bxl-facebook-circle {
+    color: blue;
+    font-size: 34px;
+}
+
+.bxl-instagram:hover,
+.bxl-whatsapp:hover,
+.bxl-facebook-circle:hover {
+    box-shadow: 3px 3px 3px black;
+}
+
+/*.banner3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(128, 0, 128, 0.215);
+    margin: 80px auto;
+}
+
+.banner3img img {
+    width: 80%;
+}*/
+
+.banner3 .img-header2 button{
+    margin: 20px auto;
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    background-color: rgb(175, 1, 175);
+    box-shadow: 3px 3px 4px rgb(26, 26, 26);
+    cursor: pointer;
+}
+
+.banner3 .img-header2 button a {
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.ppp2 {
+    font-size: 18px;
+    color: purple;
+    border-bottom: 0.8px solid orange;
+    margin-bottom: 5px;
+}
+
+.ppp3 {
+    font-size: 13px;
+}
+
+.visitourstore {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: 80px 20px;
+    flex-direction: column;
+}
+
+.ppp4 {
+    font-size: 18px;
+    color: purple;
+    border-bottom: 0.8px solid orange;
+    margin-bottom: 5px;
+    width: 170px;
+}
+
+iframe {
+    width: 80%;
+}
+
+.animation img {
+    width: 60%;
+}
+
+.animation {
+    animation-name: slide;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 1s;
+    animation-iteration-count: 30;
+    width: 25%;
+}
+
+@keyframes slide {
+    0% {
+        transform: translateX(0);
+    }
+    33% {
+        transform: translateX(600px) rotate(180deg);
+    }
+    66% {
+        transform: translateX(-600px) rotate(-180deg);
+    }
+    100% {
+        transform: translateX(0);
+        background-color: black;
+    }
+}
+
+.Reasons1 div img {
+    width: 65%;
+}
+
+.sticky1 {
+    z-index: -1;
+    position: fixed;
+    background-repeat: repeat;
+    background-size: contain;
+    /*height: 50hv;
+    width: 50vw;
+    top: 30%;*/
+    
+}
+
+.sticky3 {
+    width: 65%;
+    margin: 60px 20px;
+}
+
+.contacticon {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 60px 20px;
+}
+
+.contacticon p i {
+    font-size: 100px;
+    color: rgb(179, 1, 179);
+}
+
+.banna {
+    border: none;
+    margin: 40px;
+    padding: 20px;
+    border-radius: 40px;
+    background-color: rgb(157, 249, 249);
+}
+
+.bbb1{
+    width: 65%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.bbb1 p{
+    font-size: 13px;
+}
+
+.bbb2{
+    margin: 120px 10px;
+    background-color: aliceblue;
+    padding: 70px 10px;
+}
+
+.bbb3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bbb3 img {
+    width: 40%;
+}
+
+@media  (max-width: 477px) {
+    .img-header {
+        height: 40vh;
+        width: 70%;
+    }
+
+    .Reasons1 {
+        flex-direction: column;
+    }
+
+    .payment-get-way img {
+        width: 15%;
+    }
+
+    .sticky1 {
+        left: -50px;
+    }
+
+    p {
+        backdrop-filter: blur(10px);
+    }
+
+    .Reasons1 {
+        backdrop-filter: blur(10px);
+    }
+    h2 {
+        backdrop-filter: blur(7px);
+    }
+
+    .ppp3 {
+        font-size: 16px;
+    }
+}
+
+.accept-policy {
+    border: 1px solid black;
+    margin: 3% 20%;
+    padding: 10% auto;
+    background-color: rgba(1, 27, 55, 0.945);
+    color: rgb(251, 253, 253);
+    position: fixed;
+    z-index: +4;
+    top: 0px;
+    backdrop-filter: blur(2px);
+    border-radius: 10px;
+    transition: 0.8s ease;
+}
+
+.accept-policy.active {
+    left: -1000px;
+}
+
+
+.div1 img {
+    margin-top: 20px;
+    width: 30%;
+    border-radius: 110px;
+}
+
+.div1 h3{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: auto;
+}
+
+.button1, .button2{
+    margin: 20px 0px;
+    color: aqua;
+    width: 140px;
+    font-size: 19px;
+    border: none;
+    border-radius: 10px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+
+.button1:hover, .button2:hover {
+    cursor: pointer;
+}
