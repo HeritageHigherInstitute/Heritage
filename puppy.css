@@ -250,6 +250,22 @@
         top: 30%;
     }
 
+
+    .div2 {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+    .accept-policy {
+        width: 300px;
+        text-align: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+    }
+
 }
 
 
