@@ -272,6 +272,7 @@ h3 {
     display: flex;
     margin: 80px 20px;
     flex-direction: column;
+    height: 90vh;
 }
 
 .ppp4 {
